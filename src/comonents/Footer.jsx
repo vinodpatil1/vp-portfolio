@@ -30,7 +30,9 @@ const Footer = () => {
                   <FaTwitter/>
                   </Box>
                   <Box bg={"themcolor.700"} _hover={{bg : "themcolor.100", cursor : "pointer"}} borderRadius={50} p={1} fontSize={"s3"}>
-                  <FaLinkedinIn/>
+                 
+                  <a href='https://www.linkedin.com/home' target='_blank'><FaLinkedinIn/></a>
+                 
                   </Box>
                   <Box bg={"themcolor.700"} _hover={{bg : "themcolor.100", cursor : "pointer"}} borderRadius={50} p={1} fontSize={"s3"}>
                   <FiGithub/>

@@ -87,7 +87,7 @@ h1, h2, h3, h4, h6 {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-image: url("../assets/images/togglemenu.png");
+  background-image: url("../../images/togglemenu.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -237,5 +237,6 @@ h1, h2, h3, h4, h6 {
     min-height: 400px;
     height: 600px;
     overflow: hidden;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

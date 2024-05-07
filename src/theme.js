@@ -31,6 +31,7 @@ const myThemes = extendTheme({
       s9 : "40px",
       s10 : "32px",
       s11 : "55px",
+      s12 : "30px",
 
   },
 

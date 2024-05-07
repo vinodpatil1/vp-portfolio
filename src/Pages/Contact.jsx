@@ -79,7 +79,7 @@ const Contact = ({type,text,variant,icons,id}) => {
 
                               <Stack gap={6}>
                               <motion.div variants={fadeInAnimation}>
-                              <Heading as="h1" color={'white'} fontSize={{base : "s8", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
+                              <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
                               <Text as="span">{professional}</Text>
                               </Heading>
                               </motion.div>
@@ -89,19 +89,21 @@ const Contact = ({type,text,variant,icons,id}) => {
                               {content}
                               </Text>
                               </motion.div>
-                              <Box>
+                              <Box my={{base : "8", md : "0"}}>
                             
 
                               {contdata.listItems.map((list,index)=>{
 
                                return(
-                                    <List spacing={3} mt={{base : "0", md : "5"}} p={0} key={index}>
+                                    <List spacing={3}  mt={{base : "0", md : "5"}} p={0} key={index}>
                                     <motion.div variants={fadeInAnimation}>
                                     <ListItem>
                                     <HStack gap={5}>
-                                    <Box w={8} h={8} textAlign={"center"} display={"flex"} alignItems={"center"} justifyContent={"center"} bg={"themcolor.100"} borderRadius={50}>
+                                    <Box w={10} h={10} textAlign={"center"} display={"flex"} alignItems={"center"} justifyContent={"center"} bg={"themcolor.100"} borderRadius={50}>
                                     <ListIcon as={FaCheck} color='themcolor.400' m={0} p={0} /></Box>
+                                    <Box w={300}>
                                     <Text as="h6" m={0} p={0} fontSize={"s1"} fontWeight={"weight.Medium"} color={"themcolor.700"}>{list}</Text>
+                                    </Box>
                                     </HStack>
                                     </ListItem>
                                     </motion.div>
@@ -143,22 +145,6 @@ const Contact = ({type,text,variant,icons,id}) => {
                             </form>
                             </div>
 
-
-
-
-
-                            {/* <div className="col-12 col-md-7">
-                                <form ref={form} onSubmit={sendEmail}>
-                                <label>Name</label>
-                                <input type="text" name="user_name" />
-                                <label>Email</label>
-                                <input type="email" name="user_email" />
-                                <label>Message</label>
-                                <textarea name="message" />
-                                <input type="submit" value="Send" />
-                                </form>
-                            </div> */}
-                           
                           </div>
                         
                       )

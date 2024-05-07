@@ -22,12 +22,12 @@ const MyResume = ({id}) => {
                      return(
                         <Stack gap={2} px={{base : "3", md : "0"}} key={id}>
 
-                        <Text as="span" color={'themcolor.800'} fontSize={'s2'} fontWeight={'weight.Medium'}>{subtitle}</Text>
+                        <Text as="span" color={'themcolor.800'} pt={{base:"4", md : "0"}} fontSize={'s2'} fontWeight={'weight.Medium'}>{subtitle}</Text>
 
 
                         <Stack gap={6}>
 
-                        <Heading as="h1" color={'white'} fontSize={{base : "s8", md : "s7"}} fontWeight={'weight.Medium'} mb={4} p={0}>
+                        <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} mb={4} p={0}>
                         <Text as="span">{title1} <span style={{color : "#C9F31D"}}>{title2}</span></Text>
                         <Text m={0} p={0}>{title3}</Text>
                         </Heading>

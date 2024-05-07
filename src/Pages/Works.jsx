@@ -46,7 +46,7 @@ const Works = ({id}) => {
 
                               <Stack gap={6}>
                               <motion.div variants={fadeInAnimation}>
-                              <Heading as="h1" color={'white'} fontSize={{base : "s8", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
+                              <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
                               <Text as="span">{title1} <span style={{color : "#C9F31D"}} >{title2}</span></Text>
                               </Heading>
                               </motion.div>
@@ -78,11 +78,11 @@ const Works = ({id}) => {
                                          <motion.div initial="hidden" animate="show" variants={fadeInAnimation}>
                                            <Stack role="group" gap={6}  _hover={{cursor: "pointer"}} pl={{base : "0", md : "14"}}>
                                              <motion.div variants={fadeInAnimation}>
-                                             <Text as={"p"} m={0} py={{base : "5", md : "0"}} color={'themcolor.100'} fontSize={'s1'} fontWeight={'weight.Medium'}>{subtitles}</Text>
+                                             <Text as={"p"} m={0} pt={{base : "8", md : "0"}} color={'themcolor.100'} fontSize={'s1'} fontWeight={'weight.Medium'}>{subtitles}</Text>
                                              </motion.div>
 
                                              <motion.div variants={fadeInAnimation}>
-                                              <Heading m={0} p={0} color={'themcolor.900'} fontSize={'s8'} fontWeight={'weight.Medium'}>{protitle}</Heading>
+                                              <Heading m={0} p={0} color={'themcolor.900'} fontSize={{base : "s12",md : "s8"}} fontWeight={'weight.Medium'}>{protitle}</Heading>
                                               </motion.div>
                                               <motion.div variants={fadeInAnimation}>
                                               <Text as={"p"} m={0} p={0} color={'themcolor.600'} fontSize={'s1'} fontWeight={'weight.Medium'}>{content}</Text>

@@ -55,13 +55,13 @@ const skillsModel = useCallback(()=>(
 
                               <Stack gap={6}>
                               <motion.div variants={fadeInAnimation}>
-                              <Heading as="h1" color={'white'} fontSize={{base : "s8", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
+                              <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0} pr={{base : "0", md : "5"}}>
                               <Text as="span">{title1}<span style={{color : "#C9F31D"}} >{title2}</span></Text>
                               </Heading>
                               </motion.div>
                                
                               <motion.div variants={fadeInAnimation}> 
-                              <Text as="p" m={0} p={0} pr={{base : "0", md : "5"}} color={'themcolor.600'} fontSize={{base : "s2", md : "s1"}} fontWeight={'weight.Regular'}>
+                              <Text as="p" m={0} p={0} pr={{base : "0", md : "5"}} color={'themcolor.600'} fontSize={{base : "s2", md : "s1"}} fontWeight={'weight.Regular'} >
                               {content}
                               </Text>
                               </motion.div>

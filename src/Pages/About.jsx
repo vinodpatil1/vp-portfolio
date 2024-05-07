@@ -53,7 +53,7 @@ const About = ({id}) => {
 
                    <Stack gap={6}>
                         <motion.div variants={fadeInAnimation}>
-                        <Heading as="h1" color={'white'} fontSize={{base : "s8", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0}>
+                        <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0}>
                          <Text as="span">{professional} <span style={{color : "#C9F31D"}}>{problem}</span></Text>
                           <Text m={0} p={0}>{digital}</Text>
                         </Heading>
