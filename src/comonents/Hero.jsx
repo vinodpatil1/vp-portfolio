@@ -49,7 +49,7 @@ const Hero = ({type,text,variant,icons,id}) => {
                         </motion.div>
                         
                     <Stack gap={6}>
-                        <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s7"}} fontWeight={'weight.Medium'} m={0} p={0}>
+                        <Heading as="h1" color={'white'} fontSize={{base : "s12", md : "s8"}} fontWeight={'weight.Medium'} m={0} p={0}>
                          <motion.div variants={fadeInAnimation}>
                            <Text as="span" color={'themcolor.100'}>{name}</Text>
                           </motion.div>

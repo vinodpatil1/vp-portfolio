@@ -7,7 +7,7 @@ const heropageData = [
         id : 0,
         subtitle : "Hello, i'm",
         name : "Vinod Patil",
-        design : "Web Developer",
+        design : "UI/UX Developer Front End Developer",
         content : "We denounce with righteous indignation dislike demoralized by the charms of pleasure",
         experience : [
             {
