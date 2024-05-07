@@ -87,7 +87,7 @@ h1, h2, h3, h4, h6 {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-image: url("../../images/togglemenu.png");
+  background-image: url("../../public/images/togglemenu.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
