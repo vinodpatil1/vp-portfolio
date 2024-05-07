@@ -45,7 +45,7 @@ const About = ({id}) => {
                 <div className="col-12 col-md-8 col-lg-8">
 
                 <motion.div initial="hidden" animate="show" variants={fadeInAnimation}>
-                   <Stack gap={2} px={{base : "3", md : "0"}}>
+                   <Stack gap={2} px={{base : "3", md : "0"}} mb={{base : "8", md : "0"}}>
 
                    <motion.div variants={fadeInAnimation}>
                    <Text as="span" color={'themcolor.800'} fontSize={'s2'} fontWeight={'weight.Medium'}>{subtitle}</Text>
